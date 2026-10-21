@@ -21,8 +21,13 @@ public class ThirdPersonCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< Updated upstream
         float mouseX = Input.GetAxis("Mouse X") * sense;
         float mouseY = Input.GetAxis("Mouse Y") * sense;
+=======
+        float mouseX = Input.GetAxis("Mouse X");
+        float mouseY = Input.GetAxis("Mouse Y");
+>>>>>>> Stashed changes
 
         rotx += mouseY;
         roty -= mouseX;

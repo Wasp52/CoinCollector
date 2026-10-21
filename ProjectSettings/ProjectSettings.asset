@@ -528,10 +528,14 @@ PlayerSettings:
       m_Height: 720
       m_Kind: 1
       m_SubKind: 
+<<<<<<< Updated upstream
   m_BuildTargetBatching:
   - m_BuildTarget: Standalone
     m_StaticBatching: 1
     m_DynamicBatching: 0
+=======
+  m_BuildTargetBatching: []
+>>>>>>> Stashed changes
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
